@@ -136,6 +136,6 @@ p {
 
 @media screen and (max-width: 425px) {
   .card {
-    margin: 20px 15px;
+    margin: 20px 25px;
   }
 }
