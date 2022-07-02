@@ -68,7 +68,7 @@ p {
   margin: 5px 0 15px 0;
   padding: 0 8px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .skyline {
@@ -123,13 +123,14 @@ p {
 /* ##### Card style responsive ##### */
 @media screen and (max-width: 1024px) {
   .card {
-    margin: 30 15px;
+    margin: 30px 15px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .card {
     margin: 20px 15px;
+
   }
 }
 
