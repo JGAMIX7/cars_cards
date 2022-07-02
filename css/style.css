@@ -1,5 +1,7 @@
+/* ##### Fonts : Poppins ##### */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
+/* ##### Reset ##### */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,18 +21,21 @@ h2, h4, p {
   text-align: center;
 }
 
+/* ##### Card style ##### */
 .card {
-  width: 300px;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transition: 0.4s all ease;
-  cursor: pointer;
   flex-wrap: wrap;
+  width: 300px;
   margin: 0 30px;
+  border-radius: 10px;
+  cursor: pointer;
   overflow: hidden;
+  -webkit-box-shadow: 3px 5px 15px -2px #000; 
+  box-shadow: 3px 5px 15px -2px #000;
+  transition: 0.4s ease;
 }
 
 .card:hover {
@@ -87,6 +92,7 @@ p {
   color: rgb(214, 46, 28);
 }
 
+/* ##### Card value style ##### */
 .card-stats_wrapper.mazda {
   background-color: rgb(214, 46, 28);
 }
@@ -113,4 +119,11 @@ p {
   margin-top: -4px;
   font-weight: 500;
   font-size: 17px;
+}
+
+/* ##### Card style responsive ##### */
+@media screen (min-width: 500px) {
+  .card {
+    margin: 0 20px;
+  }
 }
